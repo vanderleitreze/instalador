@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+    .menu {
+        display: none; /* Ocultar o menu em telas menores */
+        flex-direction: column;
+        position: absolute;
+        background-color: black;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block; /* Mostrar o botão do menu em telas menores */
+        text-align: center;
+    }
+
+    .menu-title {
+        display: block; /* Mostrar o título ao lado do botão em telas menores */
+    }
+
+}
